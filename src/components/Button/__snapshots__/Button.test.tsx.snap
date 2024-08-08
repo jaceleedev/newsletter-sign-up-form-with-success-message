@@ -1,0 +1,13 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Button > matches snapshot 1`] = `
+<DocumentFragment>
+  <button
+    aria-busy="false"
+    class="text-body-bold text-white text-center w-full pt-[18px] pb-[14px] rounded-lg bg-dark-navy hover:bg-gradient-primary hover:shadow-primary transition-all"
+    type="submit"
+  >
+    Snapshot test
+  </button>
+</DocumentFragment>
+`;
