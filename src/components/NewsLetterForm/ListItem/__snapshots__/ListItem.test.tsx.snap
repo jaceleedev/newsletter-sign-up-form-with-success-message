@@ -1,0 +1,27 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ListItem > matches snapshot 1`] = `
+<DocumentFragment>
+  <li
+    class="grid grid-cols-[21px_1fr] gap-4 w-full"
+  >
+    <img
+      alt=""
+      aria-hidden="true"
+      class="mt-[2px]"
+      data-nimg="1"
+      decoding="async"
+      fetchpriority="high"
+      height="21"
+      src="/images/icon-list.svg"
+      style="color: transparent;"
+      width="21"
+    />
+    <p
+      class="text-body text-dark-navy"
+    >
+      Snapshot test
+    </p>
+  </li>
+</DocumentFragment>
+`;
