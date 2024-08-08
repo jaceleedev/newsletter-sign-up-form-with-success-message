@@ -1,0 +1,26 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Input > matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="grid grid-cols-1 gap-2 w-full"
+  >
+    <div
+      class="flex justify-between items-center"
+    >
+      <label
+        class="text-body-small text-dark-navy"
+        for="snapshot"
+      >
+        Snapshot test
+      </label>
+    </div>
+    <input
+      aria-invalid="false"
+      class="text-body w-full h-14 pl-6 py-4 rounded-lg border border-solid outline-none text-dark-navy focus:border-dark-navy placeholder:opacity-50 transition-all border-[rgba(25,24,43,0.25)] bg-white"
+      id="snapshot"
+      type="text"
+    />
+  </div>
+</DocumentFragment>
+`;
