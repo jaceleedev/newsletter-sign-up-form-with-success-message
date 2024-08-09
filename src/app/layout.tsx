@@ -22,7 +22,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto.variable}`}>{children}</body>
+      <body
+        className={`flex justify-center items-center w-screen min-h-screen bg-pale-navy ${roboto.variable}`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
