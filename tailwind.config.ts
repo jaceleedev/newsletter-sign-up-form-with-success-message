@@ -12,6 +12,7 @@ const config: Config = {
       colors: {
         'dark-navy': '#242742',
         'pale-navy': '#36384D',
+        grey: '#9294A0',
         vermellion: '#FF6155',
       },
       fontFamily: {

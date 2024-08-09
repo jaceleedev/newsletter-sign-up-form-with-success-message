@@ -19,7 +19,7 @@ const BASE_STYLES = [
   'outline-none',
   'text-dark-navy',
   'focus:border-dark-navy',
-  'placeholder:opacity-50',
+  'placeholder-grey',
   'transition-all',
 ];
 
@@ -32,7 +32,7 @@ const INVALID_STYLES = [
   'bg-opacity-15',
 ];
 
-const VALID_STYLES = ['border-[rgba(25,24,43,0.25)]', 'bg-white'];
+const VALID_STYLES = ['border-grey', 'bg-white'];
 
 function generateInputStyles(isValid: boolean) {
   return [...BASE_STYLES, ...(isValid ? VALID_STYLES : INVALID_STYLES)].join(
