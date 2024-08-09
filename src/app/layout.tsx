@@ -112,7 +112,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`flex justify-center items-center w-screen min-h-screen bg-pale-navy ${roboto.variable}`}
+        className={`flex justify-center lg:items-center w-screen min-h-screen bg-pale-navy ${roboto.variable}`}
       >
         {children}
       </body>
