@@ -1,0 +1,48 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ConfirmationModal > matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="max-w-[375px] h-[812px] px-6 pt-[149px] pb-10 bg-white lg:max-w-[504px] lg:h-[520px] lg:px-16 lg:pt-12 lg:pb-16 lg:rounded-[36px] lg:shadow-[0_15px_60px_0_rgba(0,0,0,0.25)]"
+  >
+    <div
+      class="mb-[263px] lg:mb-10"
+    >
+      <img
+        alt=""
+        class="mb-10"
+        data-nimg="1"
+        decoding="async"
+        fetchpriority="high"
+        height="64"
+        src="/images/icon-success.svg"
+        style="color: transparent;"
+        width="64"
+      />
+      <h1
+        class="text-heading mb-6"
+      >
+        Thanks for subscribing!
+      </h1>
+      <p
+        class="text-body"
+      >
+        A confirmation email has been sent to 
+        <span
+          class="text-body-bold"
+        >
+          test@example.com
+        </span>
+        . Please open it and click the button inside to confirm your subscription
+      </p>
+    </div>
+    <button
+      aria-busy="false"
+      class="text-body-bold text-white text-center w-full pt-[18px] pb-[14px] rounded-lg bg-dark-navy hover:bg-gradient-primary hover:shadow-primary transition-all"
+      type="button"
+    >
+      Dismiss message
+    </button>
+  </div>
+</DocumentFragment>
+`;
